@@ -38,7 +38,7 @@ def cal():
             result = "fail"
 
         #return redirect(url_for(result,score = sum))
-        #ddreturn render_template('cal.html',results = sum)  #for same page
+        #return render_template('cal.html',results = sum)  #for same page
         return render_template('result.html',results = sum)  # another page
 
 
